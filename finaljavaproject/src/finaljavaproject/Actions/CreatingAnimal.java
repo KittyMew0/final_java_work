@@ -6,7 +6,7 @@ import java.util.Scanner;
 import finaljavaproject.Animal;
 
 public class CreatingAnimal {
-	public void createAnimal() {
+	public static void createAnimal() {
 		Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter animal ID: ");

@@ -31,20 +31,20 @@ public class Main {
 			//commands
 			switch(option) {
 			case 1:
-				monitorAnimals();
+				AnimalRegister.monitorAnimals();
 				break;
 			case 2:
-				createAnimal();
+				CreatingAnimal.createAnimal();
 				counter++;
 				break;
 			case 3:
-				seeAnimalCommands();
+				Commands.seeCommands();
 				break;
 			case 4:
-				addNewCommand();
+				NewCommand.addNewCommand();
 				break;
 			case 5:
-				sortByBirthDate();
+				Sorting.sortByBirthDate();
 				break;
 			case 6:
 				System.out.println("You've been added " + counter + " already");
