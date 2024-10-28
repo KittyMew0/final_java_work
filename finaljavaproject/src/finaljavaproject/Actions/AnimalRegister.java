@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import finaljavaproject.DatabaseConnection;
+
 public class AnimalRegister {
 
     public static void monitorAnimals() {

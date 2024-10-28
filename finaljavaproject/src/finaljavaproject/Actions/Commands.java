@@ -1,5 +1,12 @@
 package finaljavaproject.Actions;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import finaljavaproject.DatabaseConnection;
+
 public class Commands {
 	public static void seeCommands() {
 	    String query = "SELECT a.name, c.command FROM Pets a JOIN Commands c ON a.id = c.animal_id UNION " +

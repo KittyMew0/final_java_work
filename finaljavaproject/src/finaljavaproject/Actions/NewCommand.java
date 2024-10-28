@@ -1,5 +1,10 @@
 package finaljavaproject.Actions;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Scanner;
+
+import finaljavaproject.DatabaseConnection;
 
 public class NewCommand {
 	

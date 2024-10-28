@@ -3,6 +3,8 @@ package finaljavaproject.Actions;
 import java.sql.*;
 import java.util.Scanner;
 
+import finaljavaproject.Animal;
+
 public class CreatingAnimal {
 	public void createAnimal() {
 		Scanner scanner = new Scanner(System.in);
